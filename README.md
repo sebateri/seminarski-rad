@@ -42,4 +42,4 @@ Potrebno je za putanju (path) postaviti lokaciju aplikacije te potom u konzolu n
 
 ## Link na seminarski rad
 
-GitHub: https://github.com/sebateri/sebastian-terihaj-seminarski-rad
+GitHub: https://github.com/sebateri/seminarski-rad
