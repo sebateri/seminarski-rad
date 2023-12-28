@@ -3,6 +3,11 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
+  background-image: url('/public/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  background-color: #ffffff;
 }
 
 .App-header {
@@ -44,9 +49,10 @@
 
 .Message-content > .username {
   display: block;
-  color: gray;
+  color: #363636; 
   font-size: 14px;
   padding-bottom: 4px;
+  font-weight: bold; 
 }
 
 .Message-content > .text {
@@ -54,13 +60,15 @@
   max-width: 400px;
   margin: 0;
   border-radius: 12px;
-  background-color: cornflowerblue;
-  color: white;
+  background-color: #c0c0c0; 
+  color: #363636; 
   display: inline-block;
+  border: 1px solid #a9a9a9; 
 }
 
 .currentMember > .Message-content .text {
-  background-color: orangered;
+  background-color: #d2691e; 
+  color: white; 
 }
 
 form {
@@ -75,14 +83,14 @@ input {
   padding: 5px;
   font-size: 16px;
   border-radius: 8px;
-  border: 1px solid orangered;
+  border: 1px solid #d2691e; 
   flex-grow: 1;
 }
 
 button {
   padding: 5px 10px;
   font-size: 16px;
-  background-color: orangered;
+  background-color: #d2691e; 
   color: white;
   border: none;
   border-radius: 8px;

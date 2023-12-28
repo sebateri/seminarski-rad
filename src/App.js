@@ -24,7 +24,7 @@ class App extends Component {
     jer osigurava da se constructor nadređenog razreda pozove prije constructora podrazreda 
     i da se obavi potrebno podešavanje ili inicijalizacija. */
 
-    this.drone = new window.Scaledrone('Y6mFZoHjiBvHeBtA', { // Scaledrone channelID bi se trebao nalazi unutar .env da se ostvari privatnost
+    this.drone = new window.Scaledrone(process.env.REACT_APP_SCALEDRONE_ID, { // Scaledrone Channel ID se nalazi unutar .env da se ostvari privatnost
       data: this.state.chatmember,
     });
 

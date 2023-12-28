@@ -23,11 +23,9 @@ class Input extends Component {
   }
 
   onChange(e) {
-    this.setState({ text: e.target.value }); // onChange ažurira stanje komponente s trenutnom vrijednosti polja za unos kad se promijeni.
+    this.setState({ text: e.target.value });
   }
   onSubmit(e) {
-    //onSubmit sprječava automatsko slanja obrasca i poziva callback funkciju onSendMessage koja je predana kao prop s trenutnim tekstom iz stanja komponente.
-
     e.preventDefault();
     this.setState({ text: "" });
     this.props.onSendMessage(this.state.text);

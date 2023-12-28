@@ -39,7 +39,3 @@ To se odnosi na slijedeće komponentne:
 ## Incijalizacija aplikacije
 
 Potrebno je za putanju (path) postaviti lokaciju aplikacije te potom u konzolu napisati naredbu "npm start"
-
-## Link na seminarski rad
-
-GitHub: https://github.com/sebateri/sebastian-terihaj-seminarski-rad
